@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+  - name: copy files
+    copy:
+      src: /var/lib/jenkins/workspace/ansible_project/
+      dest: /opt/playbooks/
